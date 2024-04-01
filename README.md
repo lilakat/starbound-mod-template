@@ -28,5 +28,6 @@ Remember the folder you created in the mods folder? Go there and create subfolde
 
 # Uploading to Steam
 
-If you want to upload your mod to steam, create an image for your mod and put it in your project folder. Go to Starbound on Steam, then click 'Play' and select the mod uploader tool. If you don't have options when you hit play, go to properties, and under 'General', change your launch options to 'Ask when starting game'. 
+Note: please almost never do this if you've changed actual game files instead of patching them. You will break other people's mods. 
 
+If you want to upload your mod to steam, create an image for your mod and put it in your project folder. Go to Starbound on Steam, then click 'Play' and select the mod uploader tool. If you don't have options when you hit play, go to properties, and under 'General', change your launch options to 'Ask when starting game'. 
