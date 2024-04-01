@@ -15,7 +15,6 @@ Now drag the UnpackedAssets folder onto your desktop or wherever you want to wor
 
 While you're in this folder, create or go to the folder called 'mods'. Create a new folder in here called whatever you want your mod to be called and remember where this location is. 
 
----
 
 # Finding the files to mod
 
@@ -29,7 +28,8 @@ Click on it and it'll tell you where in the game files the object is located (ex
 
 Remember the folder you created in the mods folder? Go there and create subfolders for the entire file path, starting from whatever comes after 'assets'. So in this case, create a folder called 'object' and in that, create another folder called 'themed', in that create *another* folder called 'wave', and in that create *yet another* folder called 'wavebed'. Congrats, you're done making folders for this project. Go into the final subfolder and copy the pngs you want to change. Use some kind of sorcery to change them and you're done. When you launch Starbound, they should look like the new images instead!
 
----
+To create your own version of this bed instead, call the 'wavebed' folder something else, I'll use 'kat_wavebed'. Copy everything from 'wavebed' into 'kat_wavebed', and change every reference to 'wavebed' in all the filenames to 'kat_wavebed' instead, and in kat_wavebed.object, change every reference in there too. In game you can now spawn your new object by opening the console and typing '/spawnitem kat_wavebed 1'.
+
 
 # Uploading to Steam
 
