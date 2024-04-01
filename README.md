@@ -24,3 +24,9 @@ Now it's time to find the files you want to mod. In this example we'll change th
 
 Remember the folder you created in the mods folder? Go there and create subfolders for the entire file path, starting from whatever comes after 'assets'. So in this case, create a folder called 'object' and in that, create another folder called 'themed', in that create *another* folder called 'wave', and in that create *yet another* folder called 'wavebed'. Congrats, you're done making folders for this project. Go into the final subfolder and copy the pngs you want to change. Use some kind of sorcery to change them and you're done. When you launch Starbound, they should look like the new images instead!
 
+---
+
+# Uploading to Steam
+
+If you want to upload your mod to steam, create an image for your mod and put it in your project folder. Go to Starbound on Steam, then click 'Play' and select the mod uploader tool. If you don't have options when you hit play, go to properties, and under 'General', change your launch options to 'Ask when starting game'. 
+
