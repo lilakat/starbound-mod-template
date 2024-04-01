@@ -1,7 +1,8 @@
 # How to Starbound mod (no coding experience required)
 
 Open the location of the Starbound game files. If you use Steam, this is the easy way: Right click on Starbound and open properties. Click 'Installed Files' then 'Browse':
-![Alt text](./1.png) <img src="./2.png" width="700" height="500" /> 
+
+![Alt text](./1.png) ![Alt text](./2.png) 
 
 ---
 
