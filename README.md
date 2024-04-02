@@ -6,7 +6,7 @@ Open the location of the Starbound game files. If you use Steam, this is the eas
 
 ---
 
-If you're on windows, shift+right click in the folder and open in terminal/powershell. Now type:
+If you're on windows, shift+right click in the folder and open in terminal or powershell. Now type:
 ``` bash
 .\win32\asset_unpacker.exe .\assets\packed.pak .\UnpackedAssets\
 ```
@@ -32,7 +32,7 @@ Remember the folder you created in the mods folder? Go there and create subfolde
 
 Now, generally you shouldn't do what I just explained, especially if you want to share your mod with others. Instead, you should just create your own version of the object to change (it's not much harder, I promise). 
 
-To create your own version of this bed, rename the 'wavebed' folder to something else that doesn't exist already, I'll use 'lilakat_wavebed'. It's good to use a prefix like 'lilakat_' on your mods so they don't conflict with other people's. Copy everything from 'UnpackedAssets/objects/themed/wave/wavebed' into 'lilakat_wavebed', and change every reference to 'wavebed' in all the filenames to 'lilakat_wavebed'. Now open lilakat_wavebed.object and change every reference to 'wavebed' into 'lilakat_wavebed' (using find and replace in VScode works great if you don't want to do it manually and worry about forgetting a reference!). You can also change the descriptions and anything else you want.
+To create your own version of this bed, rename your 'wavebed' folder to something else that doesn't exist already, I'll use 'lilakat_wavebed'. It's good to use a prefix like 'lilakat_' on your mods so they don't conflict with other people's. Copy everything from '/UnpackedAssets/objects/themed/wave/wavebed' into '/mods/objects/themed/wave/lilakat_wavebed', and change every reference to 'wavebed' in all the filenames to 'lilakat_wavebed'. Now open lilakat_wavebed.object in your favourite text editor and change every reference to 'wavebed' into 'lilakat_wavebed' (using find and replace in VScode works great if you don't want to do it manually and worry about forgetting a reference!). You can also change the descriptions and anything else you want.
 
 To recap, your mod folder should look like this now: 
 
@@ -47,7 +47,9 @@ In game you can now spawn your new object by opening the console and typing '/sp
 
 # Uploading to Steam
 
-Note: please almost never do this if you've changed actual game files instead of patching them or adding new objects. You will break other people's mods that rely on the game files you've changed. The only time you should do this is when patching isn't an option (for instance, you have to change specific .lua files).
+Note: please almost never do this if you've changed actual game files instead of patching them or adding new objects. You will break other people's mods that rely on the game files you've changed.
 
 If you want to upload your mod to steam, create an image for your mod and put it in your project folder. Go to Starbound on Steam, then click 'Play' and select the mod uploader tool. If you don't have options when you hit play, go to properties, and under 'General', change your launch options to 'Ask when starting game'. 
+
+![Alt text](./8.png)
 
