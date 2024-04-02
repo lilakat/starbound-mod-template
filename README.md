@@ -18,7 +18,7 @@ While you're in this folder, create or go to the folder called 'mods'. Create a 
 
 # Finding the files to mod
 
-Now it's time to find the files you want to mod. In this example we'll change the appearance of the wave bed. Go to the [Starbound Wiki](https://starbounder.org/Starbound_Wiki) and locate the object. Scroll to the bottom of its page and you'll see a section called Data that has the object's name in it. 
+Now it's time to find the files you want to mod. In this example we'll change the appearance of the mushroom bed. Go to the [Starbound Wiki](https://starbounder.org/Starbound_Wiki) and locate the object. Scroll to the bottom of its page and you'll see a section called Data that has the object's name in it. 
 
 ![Alt text](./3.png) 
 
@@ -26,13 +26,13 @@ Click on it and it'll tell you where in the game files the object is located (ex
 
 ![Alt text](./4.png) 
 
-Remember the folder you created in the mods folder? Go there and create subfolders for the entire file path, starting from whatever comes after 'assets'. So in this case, create a folder called 'object' and in that, create another folder called 'themed', in that create *another* folder called 'wave', and in that create *yet another* folder called 'wavebed'. ~~Congrats, you're done making folders for this project.~~ Go into the final subfolder and copy in the pngs you want to change. Use some kind of sorcery to edit them and you're done. When you launch Starbound, they should look like the new images instead!
+Remember the folder you created in the mods folder? Go there and create subfolders for the entire file path, starting from whatever comes after 'assets'. So in this case, create a folder called 'object' and in that, create another folder called 'themed', in that create *another* folder called 'wave', and in that create *yet another* folder called 'shroombed'. ~~Congrats, you're done making folders for this project.~~ Go into the final subfolder and copy in the pngs you want to change. Use some kind of sorcery to edit them and you're done. When you launch Starbound, they should look like the new images instead!
 
 ---
 
 Now, generally you shouldn't do what I just explained, especially if you want to share your mod with others. Instead, you should just create your own version of the object to change (it's not much harder, I promise). 
 
-To create your own version of this bed, rename your 'wavebed' folder to something else that doesn't exist already, I'll use 'lilakat_wavebed'. It's good to use a prefix like 'lilakat_' on your mods so they don't conflict with other people's. Copy everything from '/UnpackedAssets/objects/themed/wave/wavebed' into '/mods/objects/themed/wave/lilakat_wavebed', and change every reference to 'wavebed' in all the filenames to 'lilakat_wavebed'. Now open lilakat_wavebed.object in your favourite text editor and change every reference to 'wavebed' into 'lilakat_wavebed' (using find and replace in VScode works great if you don't want to do it manually and worry about forgetting a reference!). You can also change the descriptions and anything else you want.
+To create your own version of this bed, rename your 'shroombed' folder to something else that doesn't exist already, I'll use 'lilakat_shroombed'. It's good to use a prefix like 'lilakat_' on your mods so they don't conflict with other people's. Copy everything from '/UnpackedAssets/objects/biome/mushroom/shroombed' into '/mods/objects/biome/mushroom/lilakat_shroombed', and change every reference to 'shroombed' in all the filenames to 'lilakat_shroombed'. Now open lilakat_shroombed.object in your favourite text editor and change every reference to 'shroombed' into 'lilakat_shroombed' (using find and replace in VScode works great if you don't want to do it manually and worry about forgetting a reference!). You can also change the descriptions and anything else you want.
 
 To recap, your mod folder should look like this now: 
 
@@ -42,7 +42,7 @@ and your .object file should look like this:
 
 ![Alt text](./6.png) 
 
-In game you can now spawn your new object by opening the console and typing '/spawnitem lilakat_wavebed 1'.
+In game you can now spawn your new object by opening the console and typing '/spawnitem lilakat_shroombed 1'.
 
 
 # Uploading to Steam
