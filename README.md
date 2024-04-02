@@ -28,12 +28,24 @@ Click on it and it'll tell you where in the game files the object is located (ex
 
 Remember the folder you created in the mods folder? Go there and create subfolders for the entire file path, starting from whatever comes after 'assets'. So in this case, create a folder called 'object' and in that, create another folder called 'themed', in that create *another* folder called 'wave', and in that create *yet another* folder called 'wavebed'. Congrats, you're done making folders for this project. Go into the final subfolder and copy the pngs you want to change. Use some kind of sorcery to change them and you're done. When you launch Starbound, they should look like the new images instead!
 
-To create your own version of this bed instead, call the 'wavebed' folder something else, I'll use 'kat_wavebed'. Copy everything from 'wavebed' into 'kat_wavebed', and change every reference to 'wavebed' in all the filenames to 'kat_wavebed' instead, and in kat_wavebed.object, change every reference in there too. You can also change the descriptions and anything else you want. Edit the pngs to look like whatever you want. In game you can now spawn your new object by opening the console and typing '/spawnitem kat_wavebed 1'.
+Now, generally you shouldn't do what I just explained, especially if you want to share your mod with others. Instead, you should just create your own version of the object to change (it's not much harder, I promise). 
+
+To create your own version of this bed, rename the 'wavebed' folder to something else, I'll use 'kat_wavebed'. Copy everything from 'UnpackedAssets/objects/themed/wave/wavebed' into 'kat_wavebed', and change every reference to 'wavebed' in all the filenames to 'kat_wavebed'. Now open kat_wavebed.object and change every reference to 'wavebed' into 'kat_wavebed' (using find and replace in VScode works great if you don't want to do it manually and worry about forgetting a reference!). You can also change the descriptions and anything else you want.
+
+To recap, your mod folder should look like this now: 
+
+![Alt text](./5.png) 
+
+and your .object file should look like this:
+
+![Alt text](./6.png) 
+
+In game you can now spawn your new object by opening the console and typing '/spawnitem kat_wavebed 1'.
 
 
 # Uploading to Steam
 
-Note: please almost never do this if you've changed actual game files instead of patching them. You will break other people's mods that rely on the game files you've changed. The only time you should do this is when patching isn't an option (for instance, you have to change specific .lua files).
+Note: please almost never do this if you've changed actual game files instead of patching them or adding new objects. You will break other people's mods that rely on the game files you've changed. The only time you should do this is when patching isn't an option (for instance, you have to change specific .lua files).
 
 If you want to upload your mod to steam, create an image for your mod and put it in your project folder. Go to Starbound on Steam, then click 'Play' and select the mod uploader tool. If you don't have options when you hit play, go to properties, and under 'General', change your launch options to 'Ask when starting game'. 
 
